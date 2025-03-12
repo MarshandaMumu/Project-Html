@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    </body background="01PW.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0a9ab3;
+            color: #fdfdfd;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0a9ab3;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #0a9ab3;
+            color: #ffffffea;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Gallery</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="galleryy.html">Gallery</a>
+        <a href="blogg.html">Blog</a>
+        <a href="contacc.html">Contact</a>
+    </nav>
+    <nav>
+        <section id="gallery">
+       <body>
+        <div class="gallery">
+            <img src="GambarPW1.jpg" alt="Foto 1">
+            <img src="GambarPW2.jpg" alt="Foto 2">
+            <img src="Gambar PW3.jpg" alt="Foto 3">
+            <img src="GambarPW4.jpg" alt="Foto 4">
+       </body>
+    </section>
+</nav>
+<footer>
+    <p>&copy; 2024 My Blog as Mumu Marsha</p>
+</footer>
